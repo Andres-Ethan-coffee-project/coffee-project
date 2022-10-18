@@ -1,5 +1,8 @@
 "use strict"
-//creates row for an array in mew page
+//creates row for an array in mew page,
+
+
+//got help from miles for this function 👇👇👇👇👇👇👇
 function renderCoffee(coffee, counter) {
     var html = '';
     if(counter % 5 === 1) {
@@ -15,11 +18,17 @@ function renderCoffee(coffee, counter) {
     }
     return html;
 }
-// takes new array and organizes it in mumeric order
+//got help from miles for this function above 👆👆👆👆👆👆👆👆
+
+
+
+
+// takes new array and organizes it in numeric order
 function renderCoffees(coffees) {
     var html = '';
     let counter = 1;
-    for(var i = coffees.length - 1; i >= 0; i--) {
+    for(var i = coffees.length - 1; i >= 0; i--)
+    {
         html += renderCoffee(coffees[i], counter);
         counter++
     }
