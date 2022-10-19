@@ -82,6 +82,19 @@ button {
     height: 450px;
     background-size: cover ;
     background-image: url("css-img/Untitled_design_27_21d8abf020.png");
+    animation: slide 20s infinite;
+}
+@keyframes slide {
+    33.3%{
+        background-image: url("css-img/banner-2.jpg");
+
+    }
+    66.6%{
+        background-image: url("css-img/coffee-cup-beans-black-background-banner-glass-sauser-copy-space-137318606.jpg");
+    }
+    99.9%{
+         background-image: url("css-img/coffee-header.jpg");
+     }
 }
 
 
